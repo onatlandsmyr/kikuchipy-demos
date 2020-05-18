@@ -1,3 +1,7 @@
+.. Work in progress
+.. image:: https://camo.githubusercontent.com/a646be419b04e4d0f790613e408d79f991476fab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73746162696c6974792d776f726b5f696e5f70726f67726573732d6c69676874677265792e737667
+    :alt: Stability: Work in progress
+
 .. nbviewer
 .. image:: https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg?sanitize=true
     :target: https://nbviewer.ipython.org/github/kikuchipy/kikuchipy-demos/tree/master
@@ -14,6 +18,10 @@ electron backscatter diffraction (EBSD) patterns.
 The `Jupyter notebooks <https://jupyter.org>`_ in this repository demonstrate
 core functionality of the kikuchipy package. For learning purposes, we recommend
 to use them alongside our `user guide <https://kikuchipy.org>`_.
+
+If you are using the demos with a release version of kikuchipy (e.g. that you
+installed from Anaconda or PyPI) then you should use the corresponding release
+version of the demos obtained from the DOI above (coming soon).
 
 Running the notebooks
 ---------------------
@@ -40,15 +48,14 @@ Contributing
 ------------
 Everyone is welcome to contribute. To contribute new demos or improvements to
 current demos, fork this demos repository and send a pull request. See the
-`kikuchipy contribution guide
-<https://kikuchipy.org/en/latest/contributing.html>`_ for more details on how to
-contribute to kikuchipy.
+`contribution guide <https://kikuchipy.org/en/latest/contributing.html>`_ for
+more details on how to contribute to kikuchipy.
 
 Cite
 ----
 If you find kikuchipy useful, please cite the package as explained `here
 <https://kikuchipy.org>`_. If you find these example notebooks helpful, please
-cite the DOI above (cooming soon).
+cite the DOI above (coming soon).
 
 (For developers) Testing the demos locally
 ------------------------------------------
