@@ -1,7 +1,3 @@
-.. Work in progress
-.. image:: https://camo.githubusercontent.com/a646be419b04e4d0f790613e408d79f991476fab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73746162696c6974792d776f726b5f696e5f70726f67726573732d6c69676874677265792e737667
-    :alt: Stability: Work in progress
-
 .. nbviewer
 .. image:: https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg?sanitize=true
     :target: https://nbviewer.ipython.org/github/kikuchipy/kikuchipy-demos/tree/master
@@ -12,20 +8,29 @@
     :target: https://kikuchipy.org/en/latest/
     :alt: Documentation status
 
+.. Work in progress
+.. image:: https://camo.githubusercontent.com/a646be419b04e4d0f790613e408d79f991476fab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73746162696c6974792d776f726b5f696e5f70726f67726573732d6c69676874677265792e737667
+    :target: https://github.com/kikuchipy/kikuchipy-demos
+    :alt: Work in progress
+
 kikuchipy is an open-source Python library for processing and analysis of
 electron backscatter diffraction (EBSD) patterns.
 
-The `Jupyter notebooks <https://jupyter.org>`_ in this repository demonstrate
+The `Jupyter Notebooks <https://jupyter.org>`_ in this repository demonstrate
 core functionality of the kikuchipy package. For learning purposes, we recommend
 to use them alongside our `user guide <https://kikuchipy.org>`_.
 
-If you are using the demos with a release version of kikuchipy (e.g. that you
-installed from Anaconda or PyPI) then you should use the corresponding release
-version of the demos obtained from the DOI above (coming soon).
+If you are using the demos with a release version of kikuchipy that you
+installed from PyPI or Anaconda, then you should use the corresponding release
+version of the demos. See either the Release tab above or the Zenodo DOI.
+
+If you have any problems using any of the notebooks, please raise an issue in
+our `issue tracker <https://github.com/kikuchipy/kikuchipy-demos/issues>`_ so
+that we can help!
 
 Running the notebooks
 ---------------------
-Data required for all demos are available `here
+Data used in all demos is available `Zenodo
 <https://zenodo.org/record/3265037>`_.
 
 - Visualize the demos online via `nbviewer
@@ -33,16 +38,10 @@ Data required for all demos are available `here
 - Interactively online: We plan to make interactive notebooks available via
   mybinder shortly.
 - Locally: To run the notebooks locally, clone or download this demos repository
-  to your local machine, install kikuchipy and `Jupyter Lab
+  to your machine, install kikuchipy and `Jupyter Lab
   <https://jupyterlab.readthedocs.io/en/latest/>`_ (or `Jupyter Notebook
   <https://jupyter-notebook.readthedocs.io/en/stable/>`_) and use Jupyter to run
   the notebooks.
-
-Issues
-------
-If you have any problems using any of the notebooks, please raise an issue in
-our `issue tracker <https://github.com/kikuchipy/kikuchipy-demos/issues>`_ so
-that we can help.
 
 Contributing
 ------------
@@ -56,7 +55,3 @@ Cite
 If you find kikuchipy useful, please cite the package as explained `here
 <https://kikuchipy.org>`_. If you find these example notebooks helpful, please
 cite the DOI above (coming soon).
-
-(For developers) Testing the demos locally
-------------------------------------------
-TODO: Set up evaluation of notebooks with nbval.
