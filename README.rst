@@ -22,7 +22,8 @@ to use them alongside our `user guide <https://kikuchipy.org>`_.
 
 If you are using the demos with a release version of kikuchipy that you
 installed from PyPI or Anaconda, then you should use the corresponding release
-version of the demos. See either the Release tab above or the Zenodo DOI.
+version of the demos. See either the "releases" tab above or the Zenodo DOI (coming
+soon).
 
 If you have any problems using any of the notebooks, please raise an issue in
 our `issue tracker <https://github.com/kikuchipy/kikuchipy-demos/issues>`_ so
